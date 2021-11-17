@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,, initial- scale=1.0">
+	<title>Daniel ADM</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div id="container">
+	<div id="navbar">
+		<h1>Daniel Caetano Calais</h1>
+	
+	</div>
+	<div id="banner">
+		<img src="pw-disign.jpg" alt="banner" height="200" width="980">
+	</div>
+	<div id="link">	
+		
+	</div>
+	<div id="menu">
+		<ul>
+			<li>
+			<a href="Home.html"> Home </a>
+			</li>
+			<li>
+			<a href="Pessoal.html">
+			pessoal
+			</a>
+			</li>
+			<li>
+			<a href="Fotos.html">Foto</a>
+			</li>
+			<li>
+			<a href="Amigos.html">Amigos</a>
+			</li>
+			<li>
+			<a href="comentario.html"> Comentarios </a>
+			</li>
+		</ul>
+	</div>
+<div id="main0"> 
+	<form class="form-horizontal" action="enviar-comentario.php" method="POST">
+        <div class="espaco">
+        <div class="nome">
+            <label for="nome">Nome</label>
+            <input type="text" name="txtnome" id="nome" required>
+        </div>
+        <div class="turma">
+            <label for="turma">Turma</label>
+            <select name="optturma" class="form-control">
+            <option value="0">Selecione...</option>
+                <option value="1C">1ºC</option>
+                <option value="2C">2ºC</option>
+                <option value="3C">3ºC</option>
+            </select>
+        </div>
+        <div class="comentarios">
+            <label>Comentrario:</label>
+            <textarea row="10" style="width: 45em" id="experiencia" name="txtcomentario"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </div>
+	</form>
+    </div>
+	<div id="footer">
+		<font color="#FF4500">
+		<p>
+		<i>Todos os direitos</i>
+		</p>
+		<p>
+		<i>Desenvolvido por Daniel Caetano Calais - 2020</i>
+		</p>
+        </font>
+	</div>
+</div>
+</body>
+</html>
